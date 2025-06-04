@@ -1,4 +1,4 @@
-public class ElectricPokemon extends Pokemon {
+public class ElectricPokemon extends Pokemon implements UpgradedPokemon {
     private String name;
     private int level;
 
@@ -6,6 +6,7 @@ public class ElectricPokemon extends Pokemon {
         this.name = name;
         this.level = level;
     }
+
     public String getName() {
         return name;
     }
@@ -35,5 +36,10 @@ public class ElectricPokemon extends Pokemon {
     public void makeNoise() {
         System.out.println(name + " is making noise like a " + level + name);
 
+    }
+
+    @Override
+    public void inferno() {
+        System.out.println(name + " uses inferno, how is that possible?!");
     }
 }

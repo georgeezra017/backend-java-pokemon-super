@@ -30,7 +30,7 @@ public class WaterPokemon extends Pokemon {
     }
     @Override
     public void makeNoise() {
-        System.out.println(name + " is making noise like a " + level + name);
+        System.out.println(name + " is making noise like a " + level + " " + name);
 
     }
 }

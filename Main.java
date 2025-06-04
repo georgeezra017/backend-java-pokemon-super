@@ -13,6 +13,8 @@ public class Main {
 
         WaterPokemon.makeNoise();
 
+        ElectricPokemon.inferno();
+
 
     }
 }
